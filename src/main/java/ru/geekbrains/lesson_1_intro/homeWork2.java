@@ -42,7 +42,7 @@ public class homeWork2 {
 
     //Задание 4
     public static void square(){
-        int size = 5; // length of array
+        int size = 5; 
 
         int[][] arr = new int[size][size];
         for (int i = 0; i < size; i++) {
@@ -52,8 +52,6 @@ public class homeWork2 {
                 }
             }
         }
-
-        //CHECK
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 System.out.print(arr[i][j] + " ");
